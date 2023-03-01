@@ -37,7 +37,14 @@
                         regexs.ValidatePhoneNumber("91 9638527411");
                         Console.ReadKey();
                         break;
-
+                    case 5:
+                        regexs.ValidatePassword("Password");
+                        Console.ReadKey();
+                        break;
+                    case 6:
+                        regexs.ValidateStringPassword("Pranav123");
+                        Console.ReadKey();
+                        break;
                     case 0:
                         flag= false;
                         break;
