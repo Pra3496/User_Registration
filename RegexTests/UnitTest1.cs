@@ -161,5 +161,15 @@ namespace RegexTests
             Assert.AreEqual(expect_for_valid, result);
         }
 
+
+
+        [Test]
+        public void Test_For_Password_AtleastOne_SpecialCharecter_When_Input_Is_Not_Valid1()
+        {
+            string result = regexs.ValidateSpecialCharacter("pranav");
+
+            Assert.AreEqual(expect_for_not_valid, result);
+        }
+
     }
 }
