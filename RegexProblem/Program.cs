@@ -12,6 +12,11 @@
                 
                 Console.WriteLine("1.Validate First name");
                 Console.WriteLine("2.Validate Last name");
+                Console.WriteLine("3.Validate Email");
+                Console.WriteLine("4.Validate Phone Number");
+                Console.WriteLine("5.Validate Password");
+                Console.WriteLine("6.Validate Atleast One UpperCase");
+
 
                 Console.WriteLine("\t0 : EXIT");
                 Console.Write("\nENTER YOUR CHOICE : ");

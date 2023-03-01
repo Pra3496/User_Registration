@@ -94,5 +94,7 @@ namespace RegexProblem
                 Console.WriteLine("Numeric password is not matching with Regex");
             }
         }
+
+     
     }
 }
