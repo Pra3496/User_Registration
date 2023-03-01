@@ -40,7 +40,13 @@ namespace RegexTests
         }
 
 
+        [Test]
+        public void Test_For_LastName_When_Input_Is_NOT_Valid1()
+        {
+            string result = regexs.ValidateLastName("wg");
 
+            Assert.AreEqual(expect_for_not_valid, result);
+        }
 
 
     }
