@@ -8,13 +8,13 @@
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("Well-Come to User Registration Validation Program");
-                Console.WriteLine("Enter the option number");
+                Console.WriteLine("\n\nWell-Come to User Registration Validation Program\n");
+                
                 Console.WriteLine("1.Validate First name");
-                Console.WriteLine("1.Validate Last name");
+                Console.WriteLine("2.Validate Last name");
 
                 Console.WriteLine("\t0 : EXIT");
-                Console.Write("ENTER YOUR CHOICE : ");
+                Console.Write("\nENTER YOUR CHOICE : ");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -25,6 +25,11 @@
 
                     case 2:
                         regexs.ValidateLastName("Waghmare");
+                        Console.ReadKey();
+                        break;
+
+                    case 3:
+                        regexs.ValidateEmail("abc.xyz@bridgelabz.co.in");
                         Console.ReadKey();
                         break;
 
