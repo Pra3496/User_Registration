@@ -121,5 +121,14 @@ namespace RegexTests
 
             Assert.AreEqual(expect_for_valid, result);
         }
+
+        [Test]
+        public void Test_For_Password_AtleastOneUpperCase_When_Input_Is_Not_Valid1()
+        {
+            string result = regexs.ValidateStringUpperCasePassword("pranav");
+
+            Assert.AreEqual(expect_for_not_valid, result);
+        }
+
     }
 }
