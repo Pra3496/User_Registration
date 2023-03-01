@@ -50,6 +50,12 @@
                         regexs.ValidateStringPassword("Pranav123");
                         Console.ReadKey();
                         break;
+
+                    case 7:
+                        regexs.ValidateNumericPassword("Pranav615");
+                        Console.ReadKey();
+                        break;
+                        
                     case 0:
                         flag= false;
                         break;
