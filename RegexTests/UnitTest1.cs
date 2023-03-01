@@ -102,5 +102,13 @@ namespace RegexTests
             Assert.AreEqual(expect_for_valid, result);
         }
 
+
+        [Test]
+        public void Test_For_Password_When_Input_Is_NOT_Valid1()
+        {
+            string result = regexs.ValidatePassword("pranavw");
+
+            Assert.AreEqual(expect_for_not_valid, result);
+        }
     }
 }
