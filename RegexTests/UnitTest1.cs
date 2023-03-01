@@ -49,5 +49,16 @@ namespace RegexTests
         }
 
 
+        ////// Email Validation Test
+        ///
+
+        [Test]
+        public void Test_For_Email_When_Input_Is_Valid()
+        {
+            string result = regexs.ValidateEmail("abc.xyz@bridgelabz.co.in");
+
+            Assert.AreEqual(expect_for_valid, result);
+        }
+
     }
 }
