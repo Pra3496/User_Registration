@@ -19,6 +19,17 @@ namespace RegexTests
         }
 
 
+        [Test]
+        public void Test_For_FirstName_When_Input_Is_NOT_Valid_1()
+        {
+            string result = regexs.ValidateFirstName("pran");
+
+            Assert.AreEqual(expect_for_not_valid, result);
+        }
+
+       
+
+
 
     }
 }
