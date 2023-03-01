@@ -60,5 +60,12 @@ namespace RegexTests
             Assert.AreEqual(expect_for_valid, result);
         }
 
+        [Test]
+        public void Test_For_Email_When_Input_Is_NOT_Valid1()
+        {
+            string result = regexs.ValidateEmail("abc.xyzbridgelabz.co.in");
+
+            Assert.AreEqual(expect_for_not_valid, result);
+        }
     }
 }
