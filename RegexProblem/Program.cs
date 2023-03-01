@@ -24,40 +24,40 @@
                 switch (option)
                 {
                     case 1:
-                        regexs.ValidateFirstName("Pranav");
+                        Console.WriteLine(regexs.ValidateFirstName("kran"));
                         Console.ReadKey();
                         break;
 
                     case 2:
-                        regexs.ValidateLastName("Waghmare");
+                        Console.WriteLine(regexs.ValidateLastName("Waghmare"));
                         Console.ReadKey();
                         break;
 
                     case 3:
-                        regexs.ValidateEmail("abc.xyz@bridgelabz.co.in");
+                        Console.WriteLine(regexs.ValidateEmail("abc.xyz@bridgelabz.co.in"));
                         Console.ReadKey();
                         break;
 
                     case 4:
-                        regexs.ValidatePhoneNumber("91 9638527411");
+                        Console.WriteLine(regexs.ValidatePhoneNumber("91 9638527411"));
                         Console.ReadKey();
                         break;
                     case 5:
-                        regexs.ValidatePassword("Password");
+                        Console.WriteLine(regexs.ValidatePassword("Password"));
                         Console.ReadKey();
                         break;
                     case 6:
-                        regexs.ValidateStringPassword("Pranav123");
+                        Console.WriteLine(regexs.ValidateStringUpperCasePassword("Pranav123"));
                         Console.ReadKey();
                         break;
 
                     case 7:
-                        regexs.ValidateNumericPassword("Pranav615");
+                        Console.WriteLine(regexs.ValidateNumericPassword("Pranav615"));
                         Console.ReadKey();
                         break;
 
                     case 8:
-                        regexs.ValidateSpecialCharacter("Pranav@123");
+                        Console.WriteLine(regexs.ValidateSpecialCharacter("Pranav@123"));
                         Console.ReadKey();
                         break;
 
