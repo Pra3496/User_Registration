@@ -27,7 +27,19 @@ namespace RegexTests
             Assert.AreEqual(expect_for_not_valid, result);
         }
 
-       
+
+
+        /////  Last Name Validation
+
+        [Test]
+        public void Test_For_LastName_When_Input_Is_Valid()
+        {
+            string result = regexs.ValidateLastName("Waghmare");
+
+            Assert.AreEqual(expect_for_valid, result);
+        }
+
+
 
 
 
