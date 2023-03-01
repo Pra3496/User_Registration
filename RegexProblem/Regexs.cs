@@ -55,6 +55,20 @@ namespace RegexProblem
             }
         }
 
+        public void ValidatePhoneNumber(string phoneNumber)
+        {
+            //"91 0127131236"
+            string phoneNum = @"[0-9]{2}[ ][0-9]{10}";
+            if (Regex.IsMatch(phoneNumber, phoneNum))
+            {
+                Console.WriteLine("Phone Number is matching with regex");
+            }
+            else
+            {
+                Console.WriteLine("Phone Number is not matching with Regex ");
+            }
+        }
+
 
     }
 }

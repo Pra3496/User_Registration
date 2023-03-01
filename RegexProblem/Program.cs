@@ -33,6 +33,11 @@
                         Console.ReadKey();
                         break;
 
+                    case 4:
+                        regexs.ValidatePhoneNumber("91 9638527411");
+                        Console.ReadKey();
+                        break;
+
                     case 0:
                         flag= false;
                         break;
