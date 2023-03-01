@@ -148,5 +148,18 @@ namespace RegexTests
 
             Assert.AreEqual(expect_for_not_valid, result);
         }
+
+
+        ////// Password Atleast one Special Charecter Validation Test
+        ///
+
+        [Test]
+        public void Test_For_Password_AtleastOne_SpecialCharecter_When_Input_Is_Valid()
+        {
+            string result = regexs.ValidateSpecialCharacter("Pra@123");
+
+            Assert.AreEqual(expect_for_valid, result);
+        }
+
     }
 }
