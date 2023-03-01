@@ -16,8 +16,8 @@
                 Console.WriteLine("4.Validate Phone Number");
                 Console.WriteLine("5.Validate Password");
                 Console.WriteLine("6.Validate Atleast One UpperCase");
-
-
+                Console.WriteLine("7.Validate Atleast One Numeric");
+                Console.WriteLine("8.Validate Atleast One Special Charechter");
                 Console.WriteLine("\t0 : EXIT");
                 Console.Write("\nENTER YOUR CHOICE : ");
                 int option = Convert.ToInt32(Console.ReadLine());
@@ -55,7 +55,12 @@
                         regexs.ValidateNumericPassword("Pranav615");
                         Console.ReadKey();
                         break;
-                        
+
+                    case 8:
+                        regexs.ValidateSpecialCharacter("Pranav@123");
+                        Console.ReadKey();
+                        break;
+
                     case 0:
                         flag= false;
                         break;
