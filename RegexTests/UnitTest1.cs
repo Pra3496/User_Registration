@@ -67,5 +67,18 @@ namespace RegexTests
 
             Assert.AreEqual(expect_for_not_valid, result);
         }
+
+
+
+        ////// Phone Number Validation Test
+        ///
+
+        [Test]
+        public void Test_For_Phone_Number_When_Input_Is_Valid()
+        {
+            string result = regexs.ValidatePhoneNumber("91 9136251232");
+
+            Assert.AreEqual(expect_for_valid, result);
+        }
     }
 }
